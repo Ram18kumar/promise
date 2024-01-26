@@ -7,7 +7,7 @@ function keyword() {
       }, 1000); 
     });
   }
-  myAsyncOperation()
+  keyword()
   .then(result => {
     console.log("Result:", result); 
   })
